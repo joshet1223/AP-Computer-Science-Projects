@@ -1,4 +1,3 @@
-package Salary;
 
 import java.awt.BorderLayout;
 import java.beans.Customizer;
@@ -12,8 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 
-@SuppressWarnings("unused")
-public class joptforcomputingsaml {	
+public class Salary {	
 	public static void main(String[] args) {
         //... Text to put on the buttons.
     	String num1= JOptionPane.showInputDialog(null,"your Salary: " , "Torgersons Frames",JOptionPane.INFORMATION_MESSAGE);
