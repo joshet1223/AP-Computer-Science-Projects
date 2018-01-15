@@ -34,4 +34,4 @@ void check(char word[], int index)
     {
         printf("The entered word is not a palindrome\n");
     }
-}}
+}
