@@ -1,7 +1,9 @@
-/*
- * C Program to Check whether a given String is Palindrome or not 
- * using Recursion
- */
+//****************************************************************
+//Assignment: Palindrome Proect
+//Application to check whether a given string is palindrome or not 
+//using recursion methods.
+//****************************************************************
+
 #include <stdio.h>
 #include <string.h>
  
