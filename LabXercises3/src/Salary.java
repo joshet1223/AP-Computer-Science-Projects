@@ -1,4 +1,9 @@
-
+//****************************************************************
+//Salary.java
+//Assignment: LabXercises 3
+//Gives bored people suggestions on what they should do at the 
+//resort depending on the specified temperature.
+//****************************************************************
 import java.awt.BorderLayout;
 import java.beans.Customizer;
 import java.util.Scanner;
@@ -14,7 +19,7 @@ import javax.swing.SwingConstants;
 public class Salary {	
 	public static void main(String[] args) {
         //... Text to put on the buttons.
-    	String num1= JOptionPane.showInputDialog(null,"your Salary: " , "Torgersons Frames",JOptionPane.INFORMATION_MESSAGE);
+    	String num1= JOptionPane.showInputDialog(null,"your Salary: " , "Salary Calculator",JOptionPane.INFORMATION_MESSAGE);
     	int int1 = Integer.parseInt(num1);
         SortedSet<Integer> set = new TreeSet<>();
         set.add(int1);
@@ -32,7 +37,7 @@ public class Salary {
             int response = JOptionPane.showOptionDialog(
                                null                       // Center in window.
                              , "Your Performance?"        // Message
-                             , "Torgerson Frames"              // Title in titlebar
+                             , "Salary Calculator"        // Title in titlebar
                              , JOptionPane.YES_NO_OPTION  // Option type
                              , JOptionPane.PLAIN_MESSAGE  // messageType
                              , null                       // Icon (none)
@@ -63,21 +68,21 @@ public class Salary {
             if (Excellentc == 1) {
             	double e = 0.06 * int1;
             	int e1 = (int) (e + int1);
-            	JOptionPane.showMessageDialog(null, "your raise is " +e1);
+            	JOptionPane.showMessageDialog(null, "Your raise is " +e1);
             	System.exit(0);		
             
             } else {
             	if(Goodc == 1) {
                 	double g = 0.04 * int1;
                 	int g1 = (int) (g + int1);
-                	JOptionPane.showMessageDialog(null, "your raise is " +g1);
+                	JOptionPane.showMessageDialog(null, "Your raise is " +g1);
                 	System.exit(0);
             	} else {
             		
             		if (Poorc == 1) { 
                     	double p = 0.015 * int1;
                     	int p1 = (int) (p + int1);
-                    	JOptionPane.showMessageDialog(null, "your raise is " +p1);
+                    	JOptionPane.showMessageDialog(null, "Your raise is " +p1);
                     	System.exit(0);
             		}
             		

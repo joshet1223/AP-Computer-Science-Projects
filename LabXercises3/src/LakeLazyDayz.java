@@ -1,3 +1,11 @@
+//****************************************************************
+//LakeLazyDayz.java
+//Assignment: LabXercises 3
+//Author: Matthew Moradi
+//Gives bored people suggestions on what they should do at the 
+//resort depending on the specified temperature.
+//****************************************************************
+
 import java.util.Scanner;
 public class LakeLazyDayz {
 
